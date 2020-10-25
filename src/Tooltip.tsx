@@ -63,7 +63,7 @@ export const Tooltip: React.FC<TooltipProps> = ({
   };
 
   const onKeyDown = (event: React.KeyboardEvent<HTMLElement>): void => {
-    if(event.key = "Escape") setVisible(false);
+    if(event.key === "Escape") setVisible(false);
   }
 
   const tooltipId = `a_tooltip_${id}`;
